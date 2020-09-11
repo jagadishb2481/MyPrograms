@@ -2,7 +2,7 @@ package datastructures.linkedlist;
 
 
 public class LinkedList{
-	Node head;
+	public static Node head;
 	int size;
 	public void add(int data) {
 		// TODO Auto-generated method stub
@@ -83,6 +83,8 @@ public class LinkedList{
 		node=null;}
 		
 	}
+
+	
 	
 	
 	

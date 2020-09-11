@@ -1,5 +1,10 @@
 package datastructures.linkedlist;
 public class Node{
-	int data;
-	Node next;
+	public int data;
+	public Node next;
+	@Override
+	public String toString() {
+		return "Node [data=" + data + ", next=" + next + "]";
+	}
+	
 }
