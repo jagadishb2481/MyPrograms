@@ -8,8 +8,11 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import com.google.gson.JsonParser;
+/*
+Find the frequency of the 
 
-public class WikiepediaURL {
+
+*/public class WikipediaURL {
 	
 	static int getTopicCount(String topic) {
 		
