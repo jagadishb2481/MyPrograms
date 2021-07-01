@@ -50,17 +50,20 @@ public class Test {
 		 list = finalMap.get(finalMap.keySet().stream().collect(Collectors.toList()).get(n-1));
 		 }
 		System.out.println(list);
-		System.out.println("This is from Pavan Branch");
+		System.out.println("from Jagadish Branch");
 		return list;
 	}
-	public static void getDisplay(){
-		System.out.println("This is from Pavan Branch");
+	public static void display(){
+		System.out.println("from Jagadish Branch");
+	}
+	public static void displayJagadish(){
+		System.out.println("from Jagadish Branch");
 	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		getNthFreqString("This is a String", 0);
-		//System.out.println("Testing");
+		System.out.println("Testing");
 	}
 
 }
