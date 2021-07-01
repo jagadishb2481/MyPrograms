@@ -56,7 +56,9 @@ public class Test {
 	public static void getDisplay(){
 		System.out.println("This is from Pavan Branch features");
 	}
-	
+	public static void getDisplay2(){
+		System.out.println("This is from Pavan Branch features");
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		getNthFreqString("This is a String", 0);
